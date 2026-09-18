@@ -1,12 +1,22 @@
 # Analisis-Datos-2 — Plantilla de Análisis Exploratorio de Datos
 
-Notebook reutilizable para análisis exploratorio de datos (EDA) genérico: carga un CSV, aplica limpieza básica (duplicados, nulos, filtrado de columnas) y genera visualizaciones estándar (gráfico de barras, scatter plot, box plot) más un reporte automático con `pandas_profiling`.
+## Descripción
 
-Para usarlo con un dataset propio alcanza con reemplazar `'data.csv'` por el archivo a analizar y ajustar los nombres de columnas (`column_name`, `column_name1`, `column_name2`) marcados como placeholders en el notebook.
+Notebook reutilizable para análisis exploratorio de datos (EDA) genérico: carga un CSV, aplica limpieza básica (duplicados, nulos, filtrado de columnas) y genera visualizaciones estándar (gráfico de barras, scatter plot, box plot) más un reporte automático con `pandas_profiling`.
 
 ## Contenido
 
 - `analisis_datos.ipynb` — plantilla de EDA con limpieza, visualización y profiling automático.
+
+## Diagrama
+
+[Explorar la arquitectura interactiva en GitDiagram](https://gitdiagram.com/HoracioLaphitz/Analisis-Datos-2)
+
+```mermaid
+flowchart LR
+  A["analisis_datos.ipynb"] --> B["Procesamiento de Analisis-Datos-2"]
+  B --> C["Resultados del proyecto"]
+```
 
 ## Tecnologías
 
